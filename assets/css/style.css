@@ -4,14 +4,14 @@ body {
   margin: 0 auto;
   padding: 0px;
   font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
-  background: linear-gradient(white, #3d3f42);
+  background: linear-gradient(white, rgba(221, 152, 24, 0.842));
 }
 
 /* HEADER STYLES START */
 header {
   width: 100%;
   min-width: 980px;
-  background-color: rgba(221, 152, 24, 0.842);
+  background-color: #3d3f42;
 }
 
 .header_nav {
@@ -72,16 +72,19 @@ header {
 }
 /* HEADER STYLES END */
 
-.create {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    margin: 0 auto;
-    padding: 0px;
-    text-align: center;
-    width: 980px;
-  }
+/* STYLE ALL SECTION TAGS */
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  width: 980px;
+}
+
+/* CREATE SECTION STYLES START */
 .create div {
   font-family: helvetica, arial, sans-serif;
 }
@@ -151,7 +154,7 @@ header {
   width: 150px;
   color: #045fb4;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 15px;
   display: inline-block;
   vertical-align: middle;
   line-height: 15px;
@@ -192,5 +195,28 @@ header {
 .create_page a {
   display: inline;
   margin: 0px;
-  font-size: 13px;
+  font-size: 20px;
 }
+/* CREATE SECTION STYLES ENDS */
+
+/* FOOTER STYLES START */
+footer {
+  width: 100%;
+  clear: both;
+  float: left;
+  margin-top: 30px;
+  min-width: 995px;
+  background-color: white;
+  text-align: left;
+}
+footer div {
+  width: 980px;
+  margin: 0px auto;
+  padding: 0px;
+  border-bottom: 1px solid #e6e6e6;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #848484;
+}
+/*FOOTER STYLES ENDS */
