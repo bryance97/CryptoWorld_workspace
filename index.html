@@ -4,20 +4,24 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="server.js"></script>
     <title>Crypto World</title>
 </head>
 
 <body>
     <!-- navigation tags - block level element -->
     <header>
+
+
         <div class="header_nav">
         <li id="sitename"><a href="https://bryance97.github.io/CryptoWorld_workspace/">Crypto World</a></li>
-        <form action="post">
-        <li>Email / Username / Number<br><input type="text" name="email"></li>
-        <li>Password<br><input type="password" name="password"><br><a href="">Forgot login?</a></li>
-        <li><input type="submit" name="login" value="Log In"></li>
+        <form id="post">
+        <li>Email / Username / Number<br><input type="text" id="username-field" class="login-form-field" name="username"></li>
+        <li>Password<br><input type="password" id="password-field" class="login-form-field"  name="password"><br><a href="">Forgot login?</a></li>
+        <li><input type="submit" id="login-form-submit" name="login" value="Log In"></li>
         </form>
         </div>
+
     </header>
     <!-- end navigation -->
 
